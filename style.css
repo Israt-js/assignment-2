@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+.all-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.u-s,
+.a-s{
+    color: #FF5400;
+}
+.nav-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.nav-li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-li li{
+    list-style: none;
+    padding: 0 10px;
+    position: relative; 
+}
+.nav-li span{
+    text-decoration: none;
+    color: #FF5400;
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.nav-li li a{
+    text-decoration: none;
+    color: #424247;
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.banner{ 
+    height: 500px;
+    width: 1200px;
+    background-size: cover;
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("Images/Group 13 (1) (1).png");
+}
+.ban-text h3{
+    color: #fff;
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+    padding-top: 180px;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+}
+.ban-text p{
+    color: #fff;
+    font-family: 'Mulish', sans-serif;
+    width: 600px;
+    text-align: center;
+    font-style: normal;
+    line-height: normal;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 5px 40px 30px 310px;
+}
+.banner .ban-input{
+    height: 100px;
+    border: 1px solid black;
+    width: 1000px;
+    margin-left: 50px;
+    display: inline-flex;
+    justify-content: center;
+    padding: 16px;
+    align-items: center;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+.banner .ban-input input{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+span .ico{
+    border-radius: 8px;
+    background: #FF5400;
+}
+
+
